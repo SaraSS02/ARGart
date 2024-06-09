@@ -3,10 +3,11 @@ klynt.data = {
         "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC": {
             "id": "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC",
             "title": "Sequence 2",
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "y": 158,
-            "x": 246.98333333333335,
+            "backgroundColor": "rgba(0,0,0,1)",
+            "y": 119,
+            "x": 290.98333333333335,
             "hideTitleInMindmap": false,
+            "color": "rgba(0,0,0,1)",
             "size": "small",
             "iframes": [
                 {
@@ -21,10 +22,6 @@ klynt.data = {
                     },
                     "centerX": "4.58",
                     "dataend": "00:29.44",
-                    "transitionOut": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
                     "height": "459.08",
                     "duration": "00:29.44",
                     "zIndex": 0,
@@ -35,9 +32,69 @@ klynt.data = {
                 }
             ],
             "hideInMindmap": false,
-            "duration": 30,
+            "duration": 27.59145554089876,
             "hideThumbnailInMindmap": false,
-            "color": "rgba(0,0,0,1)"
+            "texts": [
+                {
+                    "id": "9B82DF5C-0B14-0210-B8C9-FE79F8CF3388",
+                    "centerY": "-317.76",
+                    "scales": true,
+                    "text": "<p><span style=\"font-size: 27pt;\"><strong><span style=\"font-family: 'Droid Sans';\">I BRANI CHE CI HAI AIUTATO A RECUPERARE FARANNO PARTE DEL NOSTRO NUOVO ALBUM</span></strong></span></p>",
+                    "width": "482.41",
+                    "name": "Text 1",
+                    "databegin": "00:00.00",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "centerX": "5.55",
+                    "dataend": "00:30.00",
+                    "height": "200.63",
+                    "duration": "00:30.00",
+                    "zIndex": 1,
+                    "type": "txt-Subtitle",
+                    "style": {
+                        "rotation": -0.009616906261067166
+                    }
+                },
+                {
+                    "id": "847E3D25-A5CE-FA93-210F-FE7BBE2E2669",
+                    "centerY": "379.58",
+                    "scales": true,
+                    "text": "<p><span style=\"font-family: 'Droid Sans'; font-size: 27pt;\"><span class=\"Apple-style-span\" style=\"line-height: 41px;\"><strong>CLICCA QUI PER VEDERE LA COPERTINA IN ANTEPRIMA</strong></span></span></p>",
+                    "width": "478.28",
+                    "name": "Text 2",
+                    "databegin": "00:00.00",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "centerX": "1.93",
+                    "dataend": "00:30.00",
+                    "height": "148.10",
+                    "duration": "00:30.00",
+                    "zIndex": 2,
+                    "link": {
+                        "id": "184CC330-0973-BBCF-52A3-FE7CA508EB0C",
+                        "linkType": "linkToSequence",
+                        "targetSequence": "0AA1FE06-5F77-9947-C3B4-FE79678DB536",
+                        "automaticTransition": false,
+                        "closeButtonTop": 16,
+                        "pauseParent": true,
+                        "automaticClose": false,
+                        "closeButton": true,
+                        "controlDX": 0,
+                        "hideInMindmap": false,
+                        "overlay": true,
+                        "controlDY": 0,
+                        "transition": "fade",
+                        "closeButtonRight": 16,
+                        "color": "rgba(0,0,0,1)",
+                        "hideArrowInMindmap": false
+                    },
+                    "type": "txt-Subtitle"
+                }
+            ]
         },
         "BD451DB9-64DF-BE3F-E9BE-B96D39EB2C8D": {
             "id": "BD451DB9-64DF-BE3F-E9BE-B96D39EB2C8D",
@@ -79,6 +136,7 @@ klynt.data = {
                         }
                     ],
                     "autoplay": true,
+                    "poster": "Medias/Posters/liberArtisti.mp4.jpg",
                     "scales": true,
                     "zIndex": 0,
                     "transitionIn": {
@@ -93,7 +151,6 @@ klynt.data = {
                     "loop": true,
                     "horizontalAlign": "center",
                     "name": "liberArtisti.mp4",
-                    "poster": "Medias/Posters/liberArtisti.mp4.jpg",
                     "databegin": "00:00.00",
                     "width": "1796.87",
                     "dataend": "00:15.06",
@@ -113,8 +170,8 @@ klynt.data = {
             "id": "BF8C9A17-513D-A21A-164D-B9763B0C5853",
             "title": "Corretta",
             "backgroundColor": "rgba(0,0,0,1)",
-            "y": 151,
-            "x": 401,
+            "y": 128,
+            "x": 546,
             "hideTitleInMindmap": false,
             "shapes": [
                 {
@@ -135,19 +192,13 @@ klynt.data = {
                     "zIndex": 1,
                     "link": {
                         "id": "E7FCE683-85F2-3C47-385C-F387C6F6DAE9",
-                        "linkType": "linkToSequence",
-                        "targetSequence": "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC",
-                        "automaticTransition": false,
-                        "closeButtonTop": 16,
-                        "pauseParent": true,
-                        "automaticClose": false,
-                        "closeButton": true,
-                        "controlDX": 0,
-                        "hideInMindmap": false,
-                        "overlay": true,
                         "controlDY": 0,
+                        "targetSequence": "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC",
+                        "controlDX": 0,
+                        "automaticTransition": false,
+                        "hideInMindmap": false,
+                        "linkType": "linkToSequence",
                         "transition": "fade",
-                        "closeButtonRight": 16,
                         "color": "rgba(0,0,0,1)",
                         "hideArrowInMindmap": false
                     },
@@ -173,6 +224,7 @@ klynt.data = {
                         }
                     ],
                     "autoplay": true,
+                    "mediaHeight": 544,
                     "scales": true,
                     "horizontalAlign": "center",
                     "frameRate": 0,
@@ -180,7 +232,6 @@ klynt.data = {
                     "centerY": "14.77",
                     "width": "1804.75",
                     "name": "artisti.mp4",
-                    "poster": "Medias/Posters/artisti.mp4.jpg",
                     "databegin": "00:00.00",
                     "transitionIn": {
                         "type": "fade",
@@ -194,19 +245,59 @@ klynt.data = {
                     "duration": "00:16.06",
                     "zIndex": 0,
                     "volume": 1,
-                    "mediaHeight": 544,
+                    "poster": "Medias/Posters/artisti.mp4.jpg",
                     "scaleMode": "zoom"
                 }
             ],
+            "hideThumbnailInMindmap": false,
+            "color": "rgba(0,0,0,1)"
+        },
+        "0AA1FE06-5F77-9947-C3B4-FE79678DB536": {
+            "id": "0AA1FE06-5F77-9947-C3B4-FE79678DB536",
+            "title": "Sequence 3",
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "y": 301,
+            "images": [
+                {
+                    "id": "A0AD7D3C-308B-1580-8DF0-FE7D041523D3",
+                    "src": "Medias/Photos/Black_White_Minimalist_Album_Cover.png",
+                    "scales": true,
+                    "horizontalAlign": "center",
+                    "centerY": "-55.34",
+                    "width": "492.18",
+                    "name": "Black_White_Minimalist_Album_Cover.png",
+                    "databegin": "00:00.00",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "centerX": "-1.28",
+                    "dataend": "00:31.00",
+                    "verticalAlign": "middle",
+                    "mediaWidth": 970,
+                    "height": "492.18",
+                    "duration": "00:31.00",
+                    "zIndex": 1,
+                    "mediaHeight": 970,
+                    "scaleMode": "zoom"
+                }
+            ],
+            "x": 282,
+            "hideTitleInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Black_White_Minimalist_Album_Cover.png.png",
+            "size": "small",
+            "hideInMindmap": false,
+            "duration": 30,
             "hideThumbnailInMindmap": false,
             "color": "rgba(0,0,0,1)"
         }
     },
     "share": {
         "enableLinkedIn": true,
-        "thumbnail": null,
+        "link": null,
         "embedWording": "Embed",
         "enableTumblr": true,
+        "verticalWording": "Vertical",
         "displayMiniPlayerWording": true,
         "playerWording": "Player",
         "title": "",
@@ -214,37 +305,46 @@ klynt.data = {
         "customSizeWording": "Custom",
         "miniPlayerWording": "Mini player",
         "shareSequenceWording": "Share sequence",
-        "originalSizeWording": "Original",
+        "linkWording": "Link",
         "removeViaKlynt": true,
         "shortMessage": "",
         "socialNetworksWording": "Social Networks",
         "message": "",
-        "verticalWording": "Vertical",
-        "linkWording": "Link",
-        "link": null,
+        "thumbnail": null,
+        "originalSizeWording": "Original",
         "enableGooglePlus": true
+    },
+    "watermark": {
+        "action": {
+            "type": "null",
+            "target": "null"
+        },
+        "displayOnStartSequence": true,
+        "image": "Player/css/editor/img/watermark.png",
+        "enabled": false,
+        "position": "null"
     },
     "miniPlayer": {
         "fullscreenInfoWording": "This program will launch in fullscreen",
         "title": "ARG_2",
-        "downloadAppWording": "Download App",
-        "launchAppWording": "Then Launch Project",
+        "thanksForWatchingWording": "Thanks for watching!",
         "description": "",
         "resumePlaybackWording": "Resume playback?",
-        "redirectToMobileApp": "auto",
-        "thanksForWatchingWording": "Thanks for watching!",
+        "launchAppWording": "Then Launch Project",
         "yesWording": "Yes",
         "url": "",
+        "redirectToMobileApp": "auto",
         "noWording": "No",
         "thumbnail": "Medias/Thumbnails/PHOTO-2024-05-21-13-17-32.jpg.jpg",
-        "analyticsKey": ""
+        "analyticsKey": "",
+        "downloadAppWording": "Download App"
     },
     "mainSequence": "BD451DB9-64DF-BE3F-E9BE-B96D39EB2C8D",
     "wording": {
-        "total_duration": "(durée totale : {0})",
-        "program_percentage_viewed": "du programme vu",
-        "total_sequences": "séquences au total",
         "your_are_here": "Vous êtes ici",
+        "total_duration": "(durée totale : {0})",
+        "total_sequences": "séquences au total",
+        "program_percentage_viewed": "du programme vu",
         "keywords": "mots-clés"
     },
     "general": {
@@ -267,27 +367,28 @@ klynt.data = {
         "mapsKey": "",
         "mainFontName": "Open Sans",
         "height": 970,
-        "modificationDate": 1717880659348,
+        "modificationDate": 1717962228893,
         "keywords": null,
         "mainFontSize": 14,
         "overlayCloseButtonTop": 16,
         "editorVersionNumber": "3.5.007"
     },
     "menu": {
-        "backgroundImage": null,
         "offset_sequence": 12,
+        "backgroundImage": null,
         "searchWidget": "9288F767-12E2-BDBC-9526-B96D39DF666A",
         "widgets": [
             {
                 "params": {
-                    "layout": "grid",
-                    "displayDescriptions": true,
-                    "displayDuration": true,
                     "sequences": [
                         "BD451DB9-64DF-BE3F-E9BE-B96D39EB2C8D",
                         "BF8C9A17-513D-A21A-164D-B9763B0C5853",
-                        "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC"
-                    ]
+                        "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC",
+                        "0AA1FE06-5F77-9947-C3B4-FE79678DB536"
+                    ],
+                    "layout": "grid",
+                    "displayDescriptions": true,
+                    "displayDuration": true
                 },
                 "id": "6E3FB96E-0A4A-1C1C-568D-B96D39E0DD82",
                 "type": "index",
@@ -329,15 +430,19 @@ klynt.data = {
         ],
         "displayBackgroundImage": false
     },
-    "watermark": {
-        "action": {
-            "type": "null",
-            "target": "null"
+    "aliases": {
+        "idToAlias": {
+            "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC": "Sequence_2",
+            "BD451DB9-64DF-BE3F-E9BE-B96D39EB2C8D": "Home",
+            "BF8C9A17-513D-A21A-164D-B9763B0C5853": "Corretta",
+            "0AA1FE06-5F77-9947-C3B4-FE79678DB536": "Sequence_3"
         },
-        "image": "Player/css/editor/img/watermark.png",
-        "displayOnStartSequence": true,
-        "enabled": false,
-        "position": "null"
+        "aliasToId": {
+            "Home": "BD451DB9-64DF-BE3F-E9BE-B96D39EB2C8D",
+            "Corretta": "BF8C9A17-513D-A21A-164D-B9763B0C5853",
+            "Sequence_2": "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC",
+            "Sequence_3": "0AA1FE06-5F77-9947-C3B4-FE79678DB536"
+        }
     },
     "footer": {
         "height": 26,
@@ -367,18 +472,6 @@ klynt.data = {
                 "label": "Made with"
             }
         ]
-    },
-    "aliases": {
-        "aliasToId": {
-            "Corretta": "BF8C9A17-513D-A21A-164D-B9763B0C5853",
-            "Home": "BD451DB9-64DF-BE3F-E9BE-B96D39EB2C8D",
-            "Sequence_2": "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC"
-        },
-        "idToAlias": {
-            "D1AD29F4-EF73-2683-6B9F-F386EFB71BCC": "Sequence_2",
-            "BD451DB9-64DF-BE3F-E9BE-B96D39EB2C8D": "Home",
-            "BF8C9A17-513D-A21A-164D-B9763B0C5853": "Corretta"
-        }
     },
     "advanced": {
         "enableFullWindowMode": true,
